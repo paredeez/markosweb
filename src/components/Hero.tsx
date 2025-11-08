@@ -25,7 +25,7 @@ const Hero = () => {
           alt="Marko's Schnitzel"
           className="w-80 sm:w-[500px] md:w-[700px] lg:w-[800px] mx-auto mb-2 drop-shadow-2xl"
         />
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 text-shadow">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 text-shadow">
           Authentic Schnitzels Made Fresh Daily
         </h1>
         <p className="text-xl sm:text-2xl text-white mb-6 max-w-3xl mx-auto text-shadow">
