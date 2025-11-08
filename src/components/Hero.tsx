@@ -23,24 +23,24 @@ const Hero = () => {
         <img
           src="/images/transplogo.png"
           alt="Marko's Schnitzel"
-          className="w-80 sm:w-[500px] md:w-[700px] lg:w-[800px] mx-auto mb-2 drop-shadow-2xl"
+          className="w-64 sm:w-96 md:w-[560px] lg:w-[640px] mx-auto mb-3 drop-shadow-2xl"
         />
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 text-shadow">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 text-shadow">
           Authentic Schnitzels Made Fresh Daily
         </h1>
-        <p className="text-xl sm:text-2xl text-white mb-6 max-w-3xl mx-auto text-shadow">
+        <p className="text-lg sm:text-xl text-white mb-6 max-w-2xl mx-auto text-shadow">
           Relaxed counter-serve offering up wraps and pittas filled with breaded meat, plus fries & sides
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#menu"
-            className="bg-gradient-marko text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+            className="bg-gradient-marko text-white px-6 py-3 rounded-full text-base font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
           >
             View Our Menu
           </a>
           <a
             href="#contact"
-            className="bg-white text-marko-orange px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-white"
+            className="bg-white text-marko-orange px-6 py-3 rounded-full text-base font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 border-2 border-white"
           >
             Find Us
           </a>
@@ -50,7 +50,7 @@ const Hero = () => {
       {/* Scroll Indicator */}
       <a
         href="#menu"
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce"
+        className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white animate-bounce"
       >
         <ChevronDown size={40} />
       </a>

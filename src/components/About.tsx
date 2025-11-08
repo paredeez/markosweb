@@ -28,32 +28,32 @@ const About = () => {
 
           {/* Content Side */}
           <div className="order-1 lg:order-2">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               About <span className="text-marko-orange">Marko's Schnitzel</span>
             </h2>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            <p className="text-base text-gray-700 mb-4 leading-relaxed">
               Welcome to Marko's Schnitzel, your go-to relaxed counter-serve in Moorabbin! We specialize in 
               delicious wraps and pittas filled with perfectly breaded meat, plus crispy fries and fresh sides.
             </p>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+            <p className="text-base text-gray-700 mb-6 leading-relaxed">
               Our secret? Fresh ingredients, time-honored recipes, and a passion for creating the perfect 
               schnitzel every single time. From our kitchen to your plate, we ensure every dish is 
               prepared with care and served with love.
             </p>
 
             {/* Highlights */}
-            <div className="space-y-4 mb-8">
+            <div className="space-y-3 mb-6">
               {highlights.map((highlight, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <CheckCircle className="w-6 h-6 text-marko-orange flex-shrink-0 mt-1" />
-                  <span className="text-gray-700 text-lg">{highlight}</span>
+                <div key={index} className="flex items-start gap-2">
+                  <CheckCircle className="w-5 h-5 text-marko-orange flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-700 text-base">{highlight}</span>
                 </div>
               ))}
             </div>
 
             <a
               href="#menu"
-              className="inline-block bg-gradient-marko text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+              className="inline-block bg-gradient-marko text-white px-6 py-3 rounded-full text-base font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               Explore Our Menu
             </a>
